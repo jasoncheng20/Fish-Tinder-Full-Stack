@@ -38,7 +38,7 @@ describe "Fish API", type: :request do
     # Look up the fish we expected to be created in the Database
     new_fish = Fish.first
 
-    Assure that the created fish has the correct attributes
+    # Assure that the created fish has the correct attributes
     expect(new_fish.name).to eq("Crush")
   end
 
